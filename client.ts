@@ -1,6 +1,6 @@
 import Pusher from "pusher-js";
 
-const appKey = process.env.PUSHER_APP_KEY;
+const appKey = process.env.KEY;
 
 const startCountdown = () => {
   alert("start countdown");

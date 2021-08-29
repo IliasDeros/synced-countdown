@@ -3,3 +3,7 @@ node_modules
 # App secrets
 .env
 vercel.json
+
+# Parcel artifacts
+dist
+.cache
