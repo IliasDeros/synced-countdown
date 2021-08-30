@@ -2,9 +2,10 @@
 
 ## Getting Started
 
-Not much to do... This repository is synced with vercel, so committing will deploy
+Not much to do...
+This repository is synced with vercel, so committing will create a deployment
 
 ## Resources
 
-* Inspired by https://vercel.com/guides/deploying-pusher-channels-with-vercel
-* The `/api` folder is required to tell vercel this is a serverless function
+- Inspired by https://vercel.com/guides/deploying-pusher-channels-with-vercel
+- The `/api` folder is required to tell vercel this is a serverless function
