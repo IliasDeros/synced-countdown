@@ -1,18 +1,38 @@
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>The Clapleader</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./client/index.css">
-    <link rel="stylesheet" href="./client/clock.css">
+    <link rel="stylesheet" href="./client/index.css" />
+    <link rel="stylesheet" href="./client/clock.css" />
   </head>
 
   <body>
     <main id="js-app">
-      <h1 class="main-header">Synced Countdown</h1>
       <div id="js-timer" class="hide">
         <span id="js-timer__text"></span>
       </div>
+
+      <div class="counter">
+        <div class="nums">
+          <span class="in">3</span>
+          <span>2</span>
+          <span>1</span>
+        </div>
+        <h4>Clap in...</h4>
+      </div>
+      <div class="final">
+        <h1><img class="clap-image" src="./client/clap.png" alt="CLAP!" /></h1>
+        <button id="js-start">Clap in 3</button>
+      </div>
     </main>
+
+    <footer>
+      <p>
+        Created with <3 by
+        <a target="_blank" href="https://iliasderos.com">Jimmy</a>
+      </p>
+    </footer>
+
     <script src="./client/index.ts"></script>
   </body>
 </html>

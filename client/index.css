@@ -1,5 +1,9 @@
-.main-header {
+body {
   text-align: center;
+}
+
+.main-header {
+  margin-top: 1rem;
 }
 
 .hide {
@@ -8,4 +12,8 @@
 
 .text-error {
   color: red;
+}
+
+.clap-image {
+  width: 3rem;
 }
